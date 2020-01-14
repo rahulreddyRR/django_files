@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
+  <h1>Welcome to relative template</h1>
+  <a href="{% url 'basic_app:other'  %}">click here to see other page</a>
+  <a href="{% url 'admin:index' %}">admin page</a>
+  <a href="{% url 'index' %}">link to index</a>
+  {% endblock %}
