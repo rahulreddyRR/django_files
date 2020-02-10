@@ -19,6 +19,7 @@ from basic_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index.as_view()),
+    path('',views.index.as_view(),name="index"),
     path('basic_app/',include('basic_app.urls',namespace='basic_app')),
+    path('logout',views.user_logout,name='logout')
 ]
