@@ -5,5 +5,9 @@
     {% for school in schools %}
     <h2><li><a href="{{school.id}}">{{school.name}}</a></li> </h2>
     {% endfor%}
+    <br>
+    <div class="container">
+      <a class="btn btn-primary" href="{% url 'basic_app:create' %}">Create</a>
+    </div>
   </ol>
 {% endblock %}
