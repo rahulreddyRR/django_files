@@ -3,7 +3,7 @@ from pprint import pprint
 from kiteconnect import KiteTicker
 api_key = "7db4evju9izcbsxf"
 api_s = "37wycphosfn8ki0tnujlngkvsbx1xvms"
-access_token = "68HDvM5prECYa9RAbamfcsVcuiT61cNC"
+access_token = "GmOP7XVVZOZq6gsXQhNrd3iceO0VSLSb"
 
 #logging.basicConfig(level=logging.DEBUG)
 
